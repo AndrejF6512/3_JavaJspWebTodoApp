@@ -6,9 +6,9 @@ import java.util.List;
 public class TodoService {
 	private static List<Todo> todos = new ArrayList<Todo>();
 	static {
-		todos.add(new Todo("Learn Web Application Development", "Study"));
-		todos.add(new Todo("Learn Spring MVC", "Study"));
-		todos.add(new Todo("Learn Spring Rest Services", "Study"));
+		todos.add(new Todo("Learn Java 17", "Java"));
+		todos.add(new Todo("Learn Spring MVC", "Java"));
+		todos.add(new Todo("Learn Jakarta EE", "Java"));
 	}
 
 	public List<Todo> retrieveTodos() {
